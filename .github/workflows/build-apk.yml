@@ -26,7 +26,7 @@ jobs:
 
 
       - name: Extract TPW project
-        run: unzip -o TPW_Android_v3_para_compilar_desde_celular.zip -d .
+        run: unzip -o TPW_Android_v3_corregido_compose.zip -d .
 
       - uses: gradle/actions/setup-gradle@v4
         with:
